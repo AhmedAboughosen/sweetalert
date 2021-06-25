@@ -175,6 +175,7 @@ class SweetAlertDialogState extends State<SweetAlertDialog>
             _options.subtitle,
             style: new TextStyle(fontSize: 16.0, color: new Color(0xff797979)),
           ),
+
         ),
       ));
     }
