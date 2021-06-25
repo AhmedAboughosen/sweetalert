@@ -160,7 +160,7 @@ class SweetAlertDialogState extends State<SweetAlertDialog>
           textDirection : TextDirection.rtl,
           child:   new Text(
             _options.title,
-            style: new TextStyle(fontSize: 25.0, color: new Color(0xff797979)),
+            style: new TextStyle(fontSize: 25.0, color: Colors.black),
           ),
         ),
       ));
