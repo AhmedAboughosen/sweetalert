@@ -154,9 +154,15 @@ class SweetAlertDialogState extends State<SweetAlertDialog>
     }
 
     if (_options.title != null) {
-      listOfChildren.add(new Text(
-        _options.title,
-        style: new TextStyle(fontSize: 25.0, color: new Color(0xff575757)),
+      listOfChildren.add(new Padding(
+        padding: new EdgeInsets.only(top: 10.0,left: 10 , right: 10),
+        child: Directionality(
+          textDirection : TextDirection.rtl,
+          child:   new Text(
+            _options.title,
+            style: new TextStyle(fontSize: 25.0, color: new Color(0xff797979)),
+          ),
+        ),
       ));
     }
 
